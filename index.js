@@ -5,7 +5,6 @@ const util = require("util");
 
 const { writeFile, copyFile } = require('./utils/generateMarkdown');
 const generateMarkdown = require("./utils/generateMarkdown");
-const badges = require("./utils/badges").badges;
 
 // TODO: Create an array of questions for user input
 const questions = [{
@@ -18,10 +17,6 @@ const questions = [{
     name: "description"
 }, {
     type: "input",
-    message: "Please include a Table of Contents.",
-    name: "table of contents"
-}, {
-    type: "input",
     message: "What are the steps required to install your project?",
     name: "installation"
 }, {
@@ -32,7 +27,7 @@ const questions = [{
     type: "input",
     message: "What license does your project use?",
     name: "license",
-    choices: ['MPL 2.0', 'Apache', 'GNU', 'MIT', 'None of the above'],
+    choices: ['MPL 2.0', 'Apache', 'GNU', 'MIT', 'None'],
 }, {
     type: "input",
     message: "If you would like other users to contribute to this project, please instruct them how to do so.",
@@ -54,16 +49,18 @@ const questions = [{
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-
-    fs.writeFile(fileName, data, function(err) {
+    return new Promise((resolve, reject) => {
+    fs.writeFile("./generatedREADME.md", data, function(err) {
         console.log(fileName)
         console.log(data)
         if (err) {
+            reject(err);
             return console.log(err)
         } else {
             console.log("Success!")
         }
     })
+})
 }
 
 // TODO: Create a function to initialize app

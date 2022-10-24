@@ -1,23 +1,25 @@
-# Gus's Project
 
-  # Gus's Project
-    It's about me
-    undefined
+  ## A
+
+  ##  B
+
+  ##  License: MIT undefined 
+  ##  undefined
 
 ----
 
-## Contents
+## Table of Contents
 
-1. [Installation][#installation]
-2. [License](#license)
-3. Contributing(#contributing)
-4. Tests(#tests)
+## * [Installation][#installation]
+## * [License](#license)
+## * Contributing(#contributing)
+## * Tests(#tests)
 
 ----
 
 ## Installation
 
-  Do this then that
+  C
 ----
 
 ## License
@@ -38,11 +40,13 @@
 
 ## Tests:
 
-  undefined
+  F
 
 ----
 
-## Contact Information:
-  - GitHub Username: August-Lascola
-  - GitHub Email Address: augustolascola@gmail.com
+### Questions:
+
+## If you have any questions, feel free to contact me using the following links
+  # GitHub: https://github.com/G
+  # Email Address: H
 
