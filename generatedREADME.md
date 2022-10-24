@@ -1,10 +1,10 @@
 
-  # Gus's
+  # Gus's Project
 
-  ##  ABCDEF
+  ##  askjdhkasjdhkasjhdkasjhdkajshd
 
-  ##  License: MIT undefined 
-  ##  undefined
+  ##  License: MIT ![Github license](https://img.shields.io/badge/License-MIT-yellow.svg)] 
+  ##  https://opensource.org/licenses/MIT
 
 ----
 
@@ -19,7 +19,7 @@
 
 ## Installation
 ### You will have to install the following to use the application
-###  GHIJKLMN
+###  jksdfhgkjshakjsdhfgkjhaskjdhsdfg
 ----
 
 ## License
@@ -40,13 +40,13 @@
 
 ## Tests:
 
-###  jksdhfksdjfhsdjkfh
+###  askjdhsdkjfhsdkjfhsdf
 
 ----
 
 ## Questions:
 
 ### If you have any questions, feel free to contact me using the following links
-  ### GitHub: https://github.com/skdjfhsdkjfh
-  ### Email Address: sdfkjhf
+  ### GitHub: https://github.com/sjksadhfsdahkf
+  ### Email Address: kajsdhasd
 

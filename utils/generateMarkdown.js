@@ -13,6 +13,7 @@ function renderLicenseBadge(license) {
   } else {
       badge = "";
 }
+  return badge;
 }
 
 // TODO: Create a function that returns the license link
@@ -30,6 +31,7 @@ function renderLicenseLink(license) {
     } else {
       licenseLink = ""
     }
+    return licenseLink;
 }
 
 // TODO: Create a function that returns the license section of README
