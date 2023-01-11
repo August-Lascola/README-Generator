@@ -1,52 +1,31 @@
+# README-Generator
 
-  ## A
+## CONTENTS OF THIS FILE
+-------------
+Introduction
+Requirements
+Installation
+Functionality
+Maintainers
 
-  ##  B
+## INTRODUCTION
+---------------
+Ever feel like the process of writing a quality README.md file could be automated? Well, look no further. The README generator accomplishes just that. 
 
-  ##  License: MIT undefined 
-  ##  undefined
+## REQUIREMENTS
+--------------
+Installation of Inquirer is required
 
-----
+To run application, type 
+node index.js 
 
-## Table of Contents
+in a command prompt. 
 
-## * [Installation][#installation]
-## * [License](#license)
-## * Contributing(#contributing)
-## * Tests(#tests)
 
-----
+## FUNCTIONALITY
+----------------
+Upon installing inquirer and running node index.js, the user will be met with several prompts. After inputting all the necessary information, the README will automatically be created and added to the file directory.  
 
-## Installation
-
-  C
-----
-
-## License
-
-  License used for this project - MIT
-
-----
-
-## Contributing:
-
-  To become a contributor to this application, please create a pull request.
-  Here are the steps required for doing that:
-    1. Fork the repository
-    2. Create a feature branch
-    3. Commit your new feature
-    4. Push your branch
-    5. Create a new pull request
-
-## Tests:
-
-  F
-
-----
-
-### Questions:
-
-## If you have any questions, feel free to contact me using the following links
-  # GitHub: https://github.com/G
-  # Email Address: H
-
+## MAINTAINER
+-------------
+Gus Lascola - https://github.com/August-Lascola
